@@ -4,6 +4,8 @@ export default <NitroErrorHandler>function (error, event) {
   const { statusCode, statusMessage, message } = error
   event.node.res.writeHead(statusCode, { 'Content-Type': 'application/json' })
   event.node.res.end(
-    JSON.stringify({ message: message || statusMessage, statusCode })
+    JSON.stringify({
+      code: statusCode, message: message || statusMessage
+    })
   )
 }
