@@ -1,5 +1,5 @@
 export default defineEventHandler(async (event) => {
-  const urls = useRuntimeConfig(event)?.URLS?.split?.(',') ?? []
+  const urls = useRuntimeConfig(event).URLS?.split?.(',') ?? []
 
   const randomUrl = urls[Math.floor(Math.random() * urls.length)]
 
