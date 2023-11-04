@@ -9,4 +9,3 @@ Since Deeplx calls are subject to request frequency limits (e.g., the common 429
 - [Koyeb](https://www.koyeb.com/)
 - [Fl0](https://www.fl0.com/)
 - [Ampt](https://ampt.dev/)
-- [Zeabur](https://zeabur.com/)
