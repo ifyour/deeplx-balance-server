@@ -6,6 +6,8 @@ Since Deeplx calls are subject to request frequency limits (e.g., the common 429
 
 ## PaaS
 
+I currently have Deeplx deployed on the following platforms and continue to add more.
+
 - [Koyeb](https://www.koyeb.com/)
 - [Fl0](https://www.fl0.com/)
 - [Ampt](https://ampt.dev/)
