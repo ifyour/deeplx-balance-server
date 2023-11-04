@@ -1,42 +1,12 @@
-# Nitro Minimal Starter
+# deeplx-balance-server
 
-Look at the [Nitro documentation](https://nitro.unjs.io/) to learn more.
+## Motivation
 
-## Setup
+Since Deeplx calls are subject to request frequency limits (e.g., the common 429 error), I deployed multiple Deeplx services on various Pass platforms. This aggregates multiple APIs so that I only need to call one API endpoint.
 
-Make sure to install the dependencies:
+## PaaS
 
-```bash
-# npm
-npm install
-
-# yarn
-yarn install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on <http://localhost:3000>
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nitro.unjs.io/deploy) for more information.
+- [koyeb](https://www.koyeb.com/)
+- [Fl0](https://www.fl0.com/)
+- [Ampt](https://ampt.dev/)
+- [Zeabur](https://zeabur.com/)
